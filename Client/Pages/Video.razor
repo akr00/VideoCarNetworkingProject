@@ -4,4 +4,33 @@
 
 <p>Section to display video from pi</p>
 
+<button class="btn btn-primary" @onhold="Forward">Forward</button>
+<br/>
+<button class="btn btn-primary" @onhold="Left">Left</button>
+<button class="btn btn-primary" @onhold="Back">Back</button>
+<button class="btn btn-primary" @onhold="Right">Right</button>
 
+@code {
+
+    private int Left()
+    {
+        return 1;
+    }
+    
+    private int Right()
+    {
+        return 1;
+    }
+    
+    private int Forward()
+    {
+        return 1;
+    }
+    
+    private int Back()
+    {
+        return 1;
+    }
+    
+
+}
